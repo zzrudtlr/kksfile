@@ -1,0 +1,38 @@
+@charset "EUC-KR";
+
+.board_page{
+	
+	width:400px;
+	margin:auto;
+	text-align:center;
+}
+.board_page button{
+	float: left;
+	width: 25px;
+	height: 25px;
+	
+}
+.board_page li{
+	margin-left:30px;
+    padding: 30 30 30 30;
+    border : 0;
+    float: left;
+}
+
+.board_page ul{
+	list-style:none;
+    margin:0;
+    padding:0;
+}
+
+.t_num{width:80px;}
+.t_name{width:150px;}
+.t_title{width:230px;}
+.t_mail{width:180px;}
+.t_reg{width:150px;}
+.t_btn{width:150px;}
+.t_btn button{width:100px;}
+.t_img{width:300px;}
+.t_img img{width:300px;	height:150px;}
+.t_project_type{width:100px;}
+.t_contents{width:200px;}
