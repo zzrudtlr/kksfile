@@ -1,7 +1,7 @@
 var portfo_data;
 (function() {
     console.log('함수 호출'); // "함수 호출" 출력
-    var imgPath = "../img/";
+    
     portfolio = {
     	getItem : function(){
 		  	  var xhr = new XMLHttpRequest();
@@ -25,10 +25,12 @@ var portfo_data;
     		var dataObj = JSON.parse(obj.data);	
     		var htmlData = "";
     		portfo_data = new Array();
+    		var imgPath = "../img/";
     		for(var i=0;i<dataObj.length;i++){
     			htmlData = htmlData+"<div class='col-md-4 col-sm-6'>";
         		htmlData = htmlData+"<div class='project-item'>";
-        		htmlData = htmlData+"<img src='"+imgPath+dataObj[i].img+"' alt=''>";
+        		//htmlData = htmlData+"<img src='"+imgPath+dataObj[i].img+"' alt=''>";
+        		htmlData = htmlData+"<img src='../img/1.jpg' alt=''>";
         		htmlData = htmlData+"<div class='project-hover'>";
         		htmlData = htmlData+"<div class='inside'>";
         		htmlData = htmlData+"<h5 style='cursor:pointer;' onClick='showLightBox("+dataObj[i].idx+");'>"+dataObj[i].name+"</h5>";
