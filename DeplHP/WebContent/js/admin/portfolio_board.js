@@ -2,7 +2,7 @@ var b_value;
 var table_data;
 function Ss(i){return document.getElementById(i)}
 function St(e,p){return p.getElementsByTagName(e)}
-
+var imgPath="../img/";
 (function(){
 	
 	function init(){
@@ -42,7 +42,7 @@ function St(e,p){return p.getElementsByTagName(e)}
 		    		    			htmlData = htmlData+"<tr>";
 		    		    			htmlData = htmlData+"<td class='t_num'>"+(data.write_count+(i+1))+"</td>";
 		    		    			htmlData = htmlData+"<td class='t_project_type'>"+dataObj[i].name+"</td>";
-		    		    			htmlData = htmlData+"<td class='t_img'><img src='"+dataObj[i].img+"'></img>";
+		    		    			htmlData = htmlData+"<td class='t_img'><img src='"+imgPath+dataObj[i].img+"'></img>";
 		    		    			htmlData = htmlData+"<td class='t_contents'>"+dataObj[i].contents+"</td>";
 		    		    			htmlData = htmlData+"<td class='t_reg'>"+dataObj[i].regdate+"</td>";
 		    		    			htmlData = htmlData+"<td class='t_btn'><button onclick='delete_portfo("+dataObj[i].idx+");' class='btn btn-info btn-sm'>삭제</button><button onclick='update_porto("+dataObj[i].idx+");' class='btn btn-info btn-sm'>수정</button></td>";

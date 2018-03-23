@@ -187,6 +187,13 @@ span.psw {
 		  };
 		  xhttp.send();
 	}
+	
+	document.addEventListener('keydown', function(event) { 
+		var keycode = event.keyCode;
+		if(keycode == 13){
+			getLoginCheck();
+		}
+	});
 
 </script>
 <%
