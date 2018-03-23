@@ -27,9 +27,22 @@
 			document.body.appendChild(light_div);
 			console.log("offsetWidth/2 : " + (light_div.offsetHeight-setting.height)/2 + "  light_div.offsetWidth/2 : " + (light_div.offsetWidth-setting.width)/2);
 			
-			var html = "<img id='lightbox_img' style='opacity:1; position:absolute; width:"+setting.width+"px; height:"+setting.height+"px; margin-top:"+(light_div.offsetHeight-setting.height)/2+"px; margin-left:"+(light_div.offsetWidth-setting.width)/2+"px;'></img>";
-			html = html + "<a onClick='unshowLightBox();' class='lightbox_close' style='margin-left:"+(light_div.offsetWidth-50)+"px; margin-top:50px;'><img src='../img/close.png'></img></a>"
-			
+			//var html = "<img id='lightbox_img' style='opacity:1; position:absolute; width:"+setting.width+"px; height:"+setting.height+"px; margin-top:"+(light_div.offsetHeight-setting.height)/2+"px; margin-left:"+(light_div.offsetWidth-setting.width)/2+"px;'></img>";
+			//html = html + "<a onClick='unshowLightBox();' class='lightbox_close' style='margin-left:"+(light_div.offsetWidth-50)+"px; margin-top:50px;'><img src='../img/close.png'></img></a>"
+			var html = "<div class='close_div'>"
+				html = html + "<a onClick='unshowLightBox();'><img src='../img/close.png'></img></a>";
+				html = html + "</div>";
+				html = html + "<div class='img_div'>";
+				html = html + "<table class='lightbox_imgtable'>";
+				html = html + "<tbody>";
+				html = html + "<tr>";
+				html = html + "<td class='lightbox_img_btn'><button type='button'>왼쪽</button></td>";
+				html = html + "<td class='lightbox_img'><img id='lightbox_img' src='../img/1.jpg'></img></td>";
+				html = html + "<td class='lightbox_img_btn'><button type='button'>오른쪽</button></td>";
+				html = html + "</tr>";
+				html = html + "</tbody>";
+				html = html + "</table>";
+				html = html + "</div>";
 			light_div.innerHTML = html;
 		},
 		on_keyEvent : function(event){

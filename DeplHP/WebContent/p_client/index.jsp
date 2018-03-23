@@ -201,12 +201,26 @@
 		<script src="../js/lightbox.js"></script>
 		<script type="text/javascript" src="../js/send_form.js" charset="utf-8"></script>
 		<script type="text/javascript" src="../js/portfo.js" charset="utf-8"></script>
-		  <!--  <div id="ligthbox" style="position:fixed; width:100%; height:100%; background: rgba(0, 0, 0, 0.7); top:0; left:0;">
-				<img src="../img/1.jpg" style="opacity:1; display:block; width:500px; height:500px; margin-top:100px; margin-left:100px;"></img>
-				<img src="../img/close.png" style="position:absolute; margin-top:0px; float:right;"></img>
+		
+		 	<!--  <div class="lightbox_div" id="ligthbox">
+				<div class="close_div">
+					<img src="../img/close.png"></img>
+				</div>
+				<div class="img_div">
+					<table class="lightbox_imgtable">
+						<tbody>
+							<tr>
+							 <td class="lightbox_img_btn"><button type="button">왼쪽</button></td>
+							 <td class="lightbox_img"><img src="../img/1.jpg"></img></td>
+							 <td class="lightbox_img_btn"><button type="button">오른쪽</button></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
 			</div>-->
 			
     </body>
+    
     	
     	
     	
