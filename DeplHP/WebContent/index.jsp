@@ -16,12 +16,12 @@
         -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
-        <link rel="stylesheet" href="../css/normalize.css">
-        <link rel="stylesheet" href="../css/font-awesome.css">
-        <link rel="stylesheet" href="../css/bootstrap.min.css">
-        <link rel="stylesheet" href="../css/templatemo-style.css">
-        <link rel="stylesheet" href="../css/depl_web.css">
-        <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/templatemo-style.css">
+        <link rel="stylesheet" href="css/depl_web.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -83,7 +83,7 @@
                 </ul>
             </div>--> <!-- .social-icons -->
             
-            <div class="social-icons">
+            <div class="social-icons" style="font-family:HYWULB;">
             	<p>부산시 중구 부산 서면 어디 주소 회사주소 </br> 전화번호 010-258-2215</p>
             </div>
             
@@ -108,7 +108,7 @@
                     <div class="page-section" id="about">
                     <div class="row">
                         <div class="col-md-12">
-                            <h4 class="widget-title">디바이즈 솔루션이란</h4>
+                            <h4 class="widget-title" style="font-family:HYWULB;">디바이즈 솔루션이란</h4>
                             <div class="about-image">
                                 <img src="../img/8.jpg" alt="about me">
                             </div>
@@ -178,7 +178,7 @@
 
                     <div class="row" id="footer">
                         <div class="col-md-12 text-center">
-                            <p class="copyright-text">Copyright &copy; 2015 Company Name</p>
+                            <p class="copyright-text" style="font-family:HYWULB;">Copyright &copy; 2015 Company Name</p>
                         </div>
                     </div>
 
@@ -192,15 +192,15 @@
 
  		 
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="../js/vendor/jquery-1.10.2.min.js"></script>
-        <script src="../js/min/plugins.min.js"></script>
-        <script src="../js/min/main.min.js"></script>
-        <script src="../js/jquery-ui-1.12.1/jquery-ui.js"></script>
-		<script src="../js/vide/jquery.vide.js"></script>
-		<script src="../js/jquery.popupoverlay.js"></script>
-		<script src="../js/lightbox.js"></script>
-		<script type="text/javascript" src="../js/send_form.js" charset="utf-8"></script>
-		<script type="text/javascript" src="../js/portfo.js" charset="utf-8"></script>
+        <script src="js/vendor/jquery-1.10.2.min.js"></script>
+        <script src="js/min/plugins.min.js"></script>
+        <script src="js/min/main.min.js"></script>
+        <script src="js/jquery-ui-1.12.1/jquery-ui.js"></script>
+		<script src="js/vide/jquery.vide.js"></script>
+		<script src="js/jquery.popupoverlay.js"></script>
+		<script src="js/lightbox.js"></script>
+		<script type="text/javascript" src="js/send_form.js" charset="utf-8"></script>
+		<script type="text/javascript" src="js/portfo.js" charset="utf-8"></script>
 		  <!--  <div id="ligthbox" style="position:fixed; width:100%; height:100%; background: rgba(0, 0, 0, 0.7); top:0; left:0;">
 				<img src="../img/1.jpg" style="opacity:1; display:block; width:500px; height:500px; margin-top:100px; margin-left:100px;"></img>
 				<img src="../img/close.png" style="position:absolute; margin-top:0px; float:right;"></img>

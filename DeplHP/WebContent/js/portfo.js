@@ -1,12 +1,12 @@
 var portfo_data;
-var imgPath = "../img/";
+var imgPath = "img/";
 (function() {
     console.log('함수 호출'); // "함수 호출" 출력
     
     portfolio = {
     	getItem : function(){
 		  	  var xhr = new XMLHttpRequest();
-			  xhr.open("POST", "../process/portfolio/get_portfolio.jsp", true);
+			  xhr.open("POST", "process/portfolio/get_portfolio.jsp", true);
 
 			  //Send the proper header information along with the request
 			  xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");

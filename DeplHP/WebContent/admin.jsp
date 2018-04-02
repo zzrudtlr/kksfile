@@ -171,7 +171,7 @@ span.psw {
 		var xhttp = new XMLHttpRequest();
 		var id = document.getElementById("id").value;
 		var pw = document.getElementById("pw").value;
-		  xhttp.open("GET", "../process/login/login_check.jsp?"+new Date().getTime()+"&id="+id+"&pw="+pw);
+		  xhttp.open("GET", "process/login/login_check.jsp?"+new Date().getTime()+"&id="+id+"&pw="+pw);
 		  xhttp.onreadystatechange = function() {
 			if (xhttp.readyState == 4 && xhttp.status == 200) {
 				console.log("xhttp.responseText : " + xhttp.responseText);
@@ -179,7 +179,7 @@ span.psw {
 				var result = response.result;
 				console.log("result : " + result);
 				if(result == "1"){
-					location.href="admin.jsp";
+					location.href="p_admin/request.jsp";
 				}else{
 					alert("로그인 실패");
 				}

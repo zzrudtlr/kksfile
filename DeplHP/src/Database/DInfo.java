@@ -2,9 +2,9 @@ package Database;
 
 public class DInfo {
 	
-	//public final String DB_URL = "jdbc:mysql://localhost:3306/depl";
-	//public final String DB_ID = "root";
-	//public final String DB_PW = "020428";
+	/*public final String DB_URL = "jdbc:mysql://localhost:3306/depl";
+	public final String DB_ID = "root";
+	public final String DB_PW = "020428";*/
 	public final String DB_URL = "jdbc:mysql://localhost:3306/devisesolution";
 	public final String DB_ID = "devisesolution";
 	public final String DB_PW = "depl0316!!";

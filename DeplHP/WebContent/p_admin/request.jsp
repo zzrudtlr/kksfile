@@ -6,7 +6,7 @@
 <%
 	String id = (String)session.getAttribute("id");
 	if(id == null){
-		response.sendRedirect("admin_login.jsp");               
+		response.sendRedirect("../admin.jsp");               
 	}
 	System.out.println("id : " + id);
 %>
@@ -226,7 +226,7 @@
                     </li>
 					-->
                    <li class="active" style="font-size:20px;">
-                        <a href="admin.jsp"><i class="fa fa-fw fa-table"></i> 요구사항 관리</a>
+                        <a href="request.jsp"><i class="fa fa-fw fa-table"></i> 요구사항 관리</a>
                     </li>
 
 					<li>

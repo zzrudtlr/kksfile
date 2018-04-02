@@ -1,7 +1,40 @@
 @charset "EUC-KR";
 
-.lightbox_div{ position:fixed;width:100%;height:100%;background:rgba(0, 0, 0, 0.7);top:0;left:0;display:block;}
-.lightbox_div .lightbox_close{
-	cursor:pointer;
-	positon:absolute;
+
+@font-face {
+  font-family: HYWULB;
+  src:url('../fonts/HYWULB.ttf');
+  src:url('../fonts/HYWULB.ttf');
+  src: 
+       url(NanumGothic.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/HYWULB.eot) format('eot'),
+       url(../fonts/HYWULB.TTF) format('truetype');
+      url(../fonts/HYWULB.otf) format('opentype');
+  font-style: normal;
+  font-weight: normal;
+  unicode-range: U+0-10FFFF;
 }
+
+@font-face {
+  font-family: HYWULM;
+  src: 
+       url(HYWULM.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/HYWULM.eot) format('eot'),
+       url(../fonts/HYWULM.TTF) format('truetype');
+      url(../fonts/HYWULB.otf) format('opentype');
+  font-style: normal;
+  font-weight: normal;
+  unicode-range: U+0-10FFFF;
+}
+
+body{
+	font-family:HYWULM;
+}
+.lightbox_div{ position:fixed;width:100%;height:100%;background:rgba(0, 0, 0, 0.7);top:0;left:0;display:block;}
+.lightbox_div .close_div{width:100%; height:10%;}
+.lightbox_div .close_div img{margin-top:10px; float:right; margin-right:10px;cursor:pointer;}
+.lightbox_div .img_div{width:100%; height:90%; text-align:center;}
+.lightbox_div .img_div .lightbox_imgtable{width:100%; height:100%;}
+.lightbox_div .img_div .lightbox_imgtable.lightbox_img_btn{width:10%;}
+.lightbox_div .img_div .lightbox_imgtable.lightbox_img{height:100%; width:80%; text-align:center;}
+.lightbox_div .img_div .lightbox_imgtable.lightbox_img img{margin:auto; vertical-align:middle; opacity:1; display:block;}
