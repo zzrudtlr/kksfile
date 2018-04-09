@@ -91,7 +91,7 @@
         
 
         <div class="banner-bg" id="top">
-            <div class="banner-overlay" data-vide-bg="../video/ocean"></div>
+            <div class="banner-overlay" data-vide-bg="video/ocean"></div>
             <div class="welcome-text">
                 <h2>Simple Design | Personal Portfolio</h2>
                 <h5>This is a mobile friendly layout with Bootstrap v3.3.1 framework. Maecenas eu ante at nunc posuere fringilla sit amet non dolor. Proin condimentum fermentum nunc.</h5>
@@ -192,7 +192,7 @@
 
  		 
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<<<<<<< HEAD:DeplHP/WebContent/index.jsp
+
         <script src="js/vendor/jquery-1.10.2.min.js"></script>
         <script src="js/min/plugins.min.js"></script>
         <script src="js/min/main.min.js"></script>
@@ -205,16 +205,7 @@
 		  <!--  <div id="ligthbox" style="position:fixed; width:100%; height:100%; background: rgba(0, 0, 0, 0.7); top:0; left:0;">
 				<img src="../img/1.jpg" style="opacity:1; display:block; width:500px; height:500px; margin-top:100px; margin-left:100px;"></img>
 				<img src="../img/close.png" style="position:absolute; margin-top:0px; float:right;"></img>
-=======
-        <script src="../js/vendor/jquery-1.10.2.min.js"></script>
-        <script src="../js/min/plugins.min.js"></script>
-        <script src="../js/min/main.min.js"></script>
-        <script src="../js/jquery-ui-1.12.1/jquery-ui.js"></script>
-		<script src="../js/vide/jquery.vide.js"></script>
-		<script src="../js/jquery.popupoverlay.js"></script>
-		<script src="../js/lightbox.js"></script>
-		<script type="text/javascript" src="../js/send_form.js" charset="utf-8"></script>
-		<script type="text/javascript" src="../js/portfo.js" charset="utf-8"></script>
+
 		
 		 	<!--  <div class="lightbox_div" id="ligthbox">
 				<div class="close_div">
@@ -231,7 +222,7 @@
 						</tbody>
 					</table>
 				</div>
->>>>>>> 9e9bb01aa74a99e95be001a3ad56be1ce19ee2c9:DeplHP/WebContent/p_client/index.jsp
+
 			</div>-->
 			
     </body>
