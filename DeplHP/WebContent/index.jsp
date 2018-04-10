@@ -110,7 +110,7 @@
                         <div class="col-md-12">
                             <h4 class="widget-title" style="font-family:HYWULB;">디바이즈 솔루션이란</h4>
                             <div class="about-image">
-                                <img src="../img/8.jpg" alt="about me">
+                                <img src="img/8.jpg" alt="about me">
                             </div>
                             <p>테스트 <span class="blue">template</span><span class="green">mo</span>. You can use this template for any purpose. Please tell your friends about it. Thank you. Credit goes to <a rel="nofollow" href="http://unsplash.com" target="_parent">Unsplash</a> for images used in this design. You can <strong>change menu icons</strong> by checking <a rel="nofollow" href="http://fontawesome.info/font-awesome-icon-world-map/" target="_parent">Font Awesome</a> (version 4). Example: <strong>&lt;i class=&quot;fa fa-camera&quot;&gt;&lt;/i&gt;</strong></p>
                             <hr>
@@ -192,7 +192,6 @@
 
  		 
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
         <script src="js/vendor/jquery-1.10.2.min.js"></script>
         <script src="js/min/plugins.min.js"></script>
         <script src="js/min/main.min.js"></script>
@@ -205,28 +204,9 @@
 		  <!--  <div id="ligthbox" style="position:fixed; width:100%; height:100%; background: rgba(0, 0, 0, 0.7); top:0; left:0;">
 				<img src="../img/1.jpg" style="opacity:1; display:block; width:500px; height:500px; margin-top:100px; margin-left:100px;"></img>
 				<img src="../img/close.png" style="position:absolute; margin-top:0px; float:right;"></img>
-
-		
-		 	<!--  <div class="lightbox_div" id="ligthbox">
-				<div class="close_div">
-					<img src="../img/close.png"></img>
-				</div>
-				<div class="img_div">
-					<table class="lightbox_imgtable">
-						<tbody>
-							<tr>
-							 <td class="lightbox_img_btn"><button type="button">왼쪽</button></td>
-							 <td class="lightbox_img"><img src="../img/1.jpg"></img></td>
-							 <td class="lightbox_img_btn"><button type="button">오른쪽</button></td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-
 			</div>-->
 			
     </body>
-    
     	
     	
     	

@@ -31,23 +31,9 @@ body{
 	font-family:HYWULM;
 }
 .lightbox_div{ position:fixed;width:100%;height:100%;background:rgba(0, 0, 0, 0.7);top:0;left:0;display:block;}
-<<<<<<< HEAD
 .lightbox_div .close_div{width:100%; height:10%;}
 .lightbox_div .close_div img{margin-top:10px; float:right; margin-right:10px;cursor:pointer;}
 .lightbox_div .img_div{width:100%; height:90%; text-align:center;}
-=======
-.lightbox_div .close_div{
-	width:100%; height:10%;
-	cursor:pointer;
-	positon:absolute;
-}
-.lightbox_div .close_div img{
-	position:absolute; margin-top:0px; float:right;
-}
-.lightbox_div .img_div{
-	width:100%; height:90%; text-align:center;
-}
->>>>>>> 9e9bb01aa74a99e95be001a3ad56be1ce19ee2c9
 .lightbox_div .img_div .lightbox_imgtable{width:100%; height:100%;}
 .lightbox_div .img_div .lightbox_imgtable.lightbox_img_btn{width:10%;}
 .lightbox_div .img_div .lightbox_imgtable.lightbox_img{height:100%; width:80%; text-align:center;}

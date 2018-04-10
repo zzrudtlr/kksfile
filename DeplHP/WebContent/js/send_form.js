@@ -36,7 +36,7 @@ send_form = {
 			 datalist.push(this.data());
 			 var jsonData = JSON.stringify(datalist);
 		  	  var xhr = new XMLHttpRequest();
-			  xhr.open("POST", "../process/request/send_message.jsp", true);
+			  xhr.open("POST", "process/request/send_message.jsp", true);
 
 			  //Send the proper header information along with the request
 			  xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
